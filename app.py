@@ -31,5 +31,5 @@ def predict():
     return render_template('main_return.html', generated_caption=result_dic)
 
 if __name__ == '__main__':  #Script executed directly
-    app.run(debug=True)  # Launch built-in web server and run this Flask webapp
+    app.run()  # Launch built-in web server and run this Flask webapp
 
